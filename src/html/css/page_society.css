@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/*---page_society---*/
+
+/*----Maincolumn---*/
+
+#maincolumn .section {
+	width: 840px;
+	padding: 10px 70px 207px;
+	margin: 0 auto;
+	background: url(../images/bg_sec.png) repeat-y;
+}
+#maincolumn h2 {
+	margin-bottom:27px;
+}
+#maincolumn h3 {
+	text-align:left;
+	margin-bottom:15px;
+	font-size:18px;
+	font-weight:normal;
+	color:#b25401;
+}
+#maincolumn h4 {
+	margin-bottom:15px;
+	font-size:21px;
+	font-weight:normal;
+	color:#b25401;
+}
+#maincolumn .block {
+	width: 698px;
+	padding: 0 71px;
+	text-align:center;
+}
+#maincolumn .block {
+	width: 698px;
+	padding: 0 71px;
+	text-align:center;
+}
+#maincolumn .society {
+	width: 698px;
+	padding:0 0 52px 0;
+	margin-bottom:50px;
+	border-bottom:1px solid #BEC8D8;
+}
+#maincolumn .society2 {
+	width: 698px;
+	padding:0 0 0 0;
+}
+#maincolumn .box {
+	width: 348px;
+	float:left;
+	text-align:left;
+	line-height:200%;
+	font-size:14px;
+}
+#maincolumn .box a {
+	color:#3c3c3c;
+}
+#maincolumn .box a:hover {
+	color:#AAA;
+}

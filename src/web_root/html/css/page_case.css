@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+/*---page_case---*/
+
+/*----Maincolumn---*/
+
+#maincolumn .section {
+	width: 840px;
+	padding: 10px 70px 12px;
+	margin: 0 auto;
+	background: url(../images/bg_sec.png) repeat-y;
+}
+#maincolumn h2 {
+	margin-bottom:27px;
+}
+#maincolumn h3 {
+	margin-bottom:18px;
+}
+#maincolumn .block {
+	width: 788px;
+	padding: 0 26px;
+	text-align:center;
+}
+#maincolumn .box {
+	width: 788px;
+	margin-bottom:45px;
+}
+#maincolumn .page_top {
+	text-align:right;
+}
+#maincolumn table,
+#maincolumn table th,
+#maincolumn table td {
+	border:1px solid #A2B5E0;
+}
+#maincolumn table {
+	margin:0 0 12px 0;
+}
+#maincolumn table th,
+#maincolumn table td {
+	padding:4px 0;
+	text-align:center;
+}
+#maincolumn table th {
+	font-size:14px;
+	background:#DEE5F5;
+}

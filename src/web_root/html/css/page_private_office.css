@@ -1,0 +1,1718 @@
+@charset "utf-8";
+
+/*---page_top---*/
+#maincolumn #page_top {
+	clear: both;
+	float: right;
+	padding:0;
+	background: url(../images/page_top.png) no-repeat;
+}
+
+/*----Maincolumn---*/
+
+body {
+	background: #FEF7E7 url(../images/private/bg.png) no-repeat center top;
+}
+
+#container #logo {
+	margin-left: 151px;
+}
+
+ul#globalnavi {
+	margin: 0 auto 29px;
+}
+
+/*----Maincolumn---*/
+
+#maincolumn {
+	position:relative;
+	width: 980px;
+	margin: 0 auto;
+}
+
+#maincolumn .copy {
+	position:absolute;
+	left:100px;
+	top:22px;
+	width:780px;
+}
+#maincolumn .section {
+	width: 980px;
+}
+
+
+.private {
+	position:relative;
+	width: 980px;
+	min-height: 1000px;
+	background: url(../images/private/private_bg.png);
+}
+
+.private .ttl {
+	position:absolute;
+	left:27px;
+	top:18px;
+}
+
+.private .ttl .eng {
+	margin-bottom:5px;
+	color: #FFF;
+	font: 14px "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.private .ttl .jpn {
+	color: #7a9acb;
+	font: 11px;
+}
+
+.private_body {
+	position:absolute;
+	right:15px;
+	top:0;
+	width:695px;
+}
+
+
+/*----サイドバー----*/
+
+.sidebar {
+	position:absolute;
+	left:35px;
+	top:25px;
+}
+
+.link_header {
+	padding-left: 0px;
+	padding-bottom: 8px;
+	color: #FFFFFF;
+	font: 13px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.link a {
+	color: #FFFFFF;
+}
+
+.link2 a {
+	color: #FFFFFF;
+}
+
+.link {
+	padding-left: 20px;
+	padding-bottom: 18px;
+	color: #FFFFFF;
+	font: 13px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+	background: url(../images/private/icon.png) no-repeat;
+}
+
+.link2 {
+	padding-top: 5px;
+	padding-left: 40px;
+	color: #FFFFFF;
+	font: 13px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.line {
+	width: 232px;
+	margin-left: -25px;
+	padding-bottom: 15px;
+}
+
+.top_logout {
+	background: url(../images/private/logout_bg.png) no-repeat;
+	width: 232px;
+	margin-left:-25px;
+}
+
+.top_logout .home {
+	padding-right:8px;
+}
+
+.top_logout .logout {
+	padding-right:10px;
+}
+
+
+
+/*----main common----*/
+.title p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 18px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+
+.title {
+	padding-top: 36px;
+}
+
+.title .search_list {
+	float:right;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+table {
+    margin-top: 15px;
+    margin-left: 7px;
+	font-size:12px;
+}
+
+th {
+    background-color: #E5F0FC;
+	border-color: #D9DFD9;
+	font-weight: normal;
+	font-size:12px;
+}
+
+td {
+	border-color: #D9DFD9;
+	font-size:12px;
+}
+
+p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 14px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.p_subject {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 16px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+
+/*----ログイン　完了----*/
+.top .top_text {
+	margin-top: 75px;
+	margin-left: 190px;
+}
+
+
+/*----会員登録----*/
+.member_register_text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.member_register table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.member_register th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.member_register td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.member_register .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.member_register .member_register_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/input_check.png) no-repeat;
+}
+
+/*----会員登録　入力内容確認----*/
+.member_register_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.member_register_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.member_register_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+}
+
+.member_register_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.member_register_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.member_register_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.member_register_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/register_button1.png) no-repeat;
+}
+
+/*----会員登録　登録完了----*/
+.member_register_finish_text {
+	margin-left: 200px;
+	margin-top: 30px;
+}
+
+.member_register_finish table {
+    margin-top: 30px;
+    margin-left: 150px;
+	font-size:12px;
+}
+
+.member_register_finish .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+/*----会員情報閲覧/変更----*/
+.member_change_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.member_change_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.member_change_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/search_button.png) no-repeat;
+}
+
+.member_change_search .s_p {
+	margin-top: 10px;
+	margin-bottom:5px;
+	margin-left: 150px;
+	color: #000000;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+/*----会員情報閲覧/変更　会員詳細----*/
+.member_change_text {
+	margin-top: 20px;
+	margin-left: 60px;
+}
+
+.member_change table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.member_change th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.member_change td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.member_change .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.member_change .member_register_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/input_check.png) no-repeat;
+}
+
+/*----会員情報閲覧/変更　入力内容確認----*/
+.member_change_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.member_change_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.member_change_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+}
+
+.member_change_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.member_change_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.member_change_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.member_change_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/change_button.png) no-repeat;
+}
+
+
+/*----会員情報閲覧/変更　登録完了----*/
+.member_change_finish_text {
+	margin-left:200px;
+	margin-top: 30px;
+}
+
+.member_change_finish table {
+    margin-top: 30px;
+    margin-left: 150px;
+	font-size:12px;
+}
+
+.member_change_finish .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+
+/*----受注情報閲覧/変更----*/
+.order_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.order_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.order_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/search_button.png) no-repeat;
+}
+
+
+/*----受注情報閲覧/変更　会員詳細----*/
+.order_detail_text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.order_detail table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.order_detail th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.order_detail td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.order_detail .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.order_detail .order_detail_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/input_check.png) no-repeat;
+}
+
+/*----受注情報閲覧/変更　入力内容確認----*/
+.order_detail_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.order_detail_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.order_detail_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.order_detail_check .n_th {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 150px;
+}
+
+.order_detail_check .n_td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.order_detail_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.order_detail_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.order_detail_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.order_detail_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/change_button.png) no-repeat;
+}
+
+/*----受注情報閲覧/変更　完了----*/
+.order_detail_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----パーツ代金精算----*/
+.parts_price_search table {
+    margin-top: 90px;
+    margin-left: 130px;
+	font-size:12px;
+	width: 400px;
+}
+
+.parts_price_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/search_button.png) no-repeat;
+}
+
+
+/*----パーツ代金精算　検索結果一覧----*/
+.parts_price_search_result table {
+    margin-top: 15px;
+    margin-left: 7px;
+	width: 650px;
+	font-size:12px;
+}
+
+.parts_price_search_result .csv {
+	margin-top: 10px;
+	margin-left: 130px;
+	width: 123px;
+	height: 27px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_csv.png) no-repeat;
+}
+
+
+/*----物件登録----*/
+.thing_register table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.thing_register th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_register td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.thing_register .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.thing_register .thing_register_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/input_check.png) no-repeat;
+}
+
+
+/*----物件登録　入力内容確認----*/
+.thing_register_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.thing_register_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_register_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.thing_register_check .n_th {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_register_check .n_td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.thing_register_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.thing_register_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.thing_register_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.thing_register_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/register_button1.png) no-repeat;
+}
+
+/*----物件登録　完了----*/
+.thing_register_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----会員情報閲覧/変更----*/
+.thing_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.thing_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.thing_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/search_button.png) no-repeat;
+}
+
+
+/*----物件情報閲覧/変更----*/
+.thing_change_text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.thing_change table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.thing_change th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_change td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.thing_change .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.thing_change .thing_change_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/input_check.png) no-repeat;
+}
+
+/*----物件情報閲覧/変更　入力内容確認----*/
+.thing_change_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.thing_change_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_change_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.thing_change_check .n_th {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 150px;
+}
+
+.thing_change_check .n_td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.thing_change_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.thing_change_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.thing_change_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.thing_change_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/change_button.png) no-repeat;
+}
+
+/*----物件情報閲覧/変更　完了----*/
+.thing_change_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----請求処理----*/
+.request_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.request_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.request_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/search_button.png) no-repeat;
+}
+
+.request_search_result .batch_button {
+	margin-top: 20px;
+	margin-left: 240px;
+	width: 192px;
+	height: 27px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_batch.png) no-repeat;
+}
+
+
+/*----請求処理詳細----*/
+.request_result table {
+    margin-top: 15px;
+    margin-left: 7px;
+	width: 650px;
+	font-size:12px;
+}
+
+.request_result .batch {
+	width: 124px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_batch2.png) no-repeat;
+}
+
+.request_result .print {
+	width: 124px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/invoice_print_button.png) no-repeat;
+}
+.request_result .reprint {
+	float: left;
+	width: 79px;
+	height: 18px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/change_button_s.png) no-repeat;
+}
+
+.request_result .payment {
+	width: 123px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_payment.png) no-repeat;
+}
+
+.request_result .receipt {
+	width: 124px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_receipt.png) no-repeat;
+}
+
+table#bill_header th:nth-child(1) {
+	width: 10em;
+	text-align: right;
+}
+
+table#bill_header th:nth-child(2) {
+	text-align: left;
+}
+
+.request_result #request_buttons input {
+	display: inline-block;
+	margin: 0 8px;
+}
+
+.request_result #tr_bill_date2 {
+	display: none;
+}
+
+/*----会社別集計----*/
+.aggregate_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.aggregate_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.aggregate_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_aggregate.png) no-repeat;
+}
+
+.aggregate_search_result .aggregate_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 123px;
+	height: 27px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_csv.png) no-repeat;
+}
+
+/*----実績表出力----*/
+.performance_search table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.performance_search_result table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.performance_search .search_button {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_aggregate.png) no-repeat;
+}
+
+.performance_search_result .csv_button {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 123px;
+	height: 27px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_csv.png) no-repeat;
+}
+
+.performance_search_result .pdf_button {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 123px;
+	height: 27px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_aggregate_pdf.png) no-repeat;
+}
+
+/*----協会基本情報----*/
+.society_register_text {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.society_register table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.society_register th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.society_register td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.society_register #th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.society_register .society_register {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_update.png) no-repeat;
+}
+
+
+/*----協会基本情報　入力内容確認----*/
+.society_register_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.society_register_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.society_register_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.society_register_check .n_th {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 150px;
+}
+
+.society_register_check .n_td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.society_register_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.society_register_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.society_register_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.society_register_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_update.png) no-repeat;
+}
+
+/*----協会基本情報　完了----*/
+.society_register_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----管理者情報----*/
+.admin_register table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.admin_register th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.admin_register td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.admin_register .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.admin_register .society_register {
+	margin-top: 20px;
+	margin-left: 280px;
+	width: 128px;
+	height: 28px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_update.png) no-repeat;
+}
+
+
+/*----管理者情報　入力内容確認----*/
+.admin_register_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.admin_register_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.admin_register_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.admin_register_check .n_th {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 150px;
+}
+
+.admin_register_check .n_td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+	width: 400px;
+}
+
+.admin_register_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.admin_register_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.admin_register_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.admin_register_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_update.png) no-repeat;
+}
+
+/*----管理者情報　完了----*/
+.admin_register_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----単価設定----*/
+.system_unit .inf {
+	margin-top: 30px;
+}
+
+.system_unit table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.system_unit .reg_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_register.png) no-repeat;
+}
+
+.system_unit .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+
+/*----消費税設定----*/
+.system_tax table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.system_tax .reg_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_register.png) no-repeat;
+}
+
+.system_tax .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+/*----材種設定----*/
+.system_material table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.system_material .reg_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_register.png) no-repeat;
+}
+
+.system_material .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+/*----施工管理技術者設定----*/
+.system_engineer table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.system_engineer .reg_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_register.png) no-repeat;
+}
+
+.system_engineer .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+/*----施工管理技術者設定----*/
+.system_architect table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.system_architect .reg_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_register.png) no-repeat;
+}
+
+.system_architect .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+
+/*----事務局からのお知らせ----*/
+.news .inf {
+	margin-top: 30px;
+}
+
+.news table {
+    margin-top: 30px;
+    margin-left: 10px;
+	font-size:12px;
+	width: 650px;
+}
+
+.news .reg_button {
+	margin-top: 0px;
+	margin-left: 300px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_add.png) no-repeat;
+}
+
+.news .del_button {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 81px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_delete.png) no-repeat;
+}
+
+.news .dot_td {
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	font-size: 12px;
+}
+
+/*----事務局からのお知らせ　入力内容確認----*/
+.news_check table {
+    margin-top: 15px;
+    margin-left: 60px;
+	font-size:12px;
+}
+
+.news_check th {
+    background-color: #FFFFFF;
+	text-align: left;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-weight: normal;
+	font-size:12px;
+	width: 150px;
+}
+
+.news_check td {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #A8A8A8 #FFFFFF;
+	font-size:12px;
+}
+
+.news_check .th_p {
+	margin-bottom:5px;
+	color: #284A7F;
+	font: 12px "メイリオ", "Meiryo", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+}
+
+.news_check .o_id {
+    background-color: #FFFFFF;
+	border-color: #FFFFFF #FFFFFF #FFFFFF #FFFFFF;
+	font-size:12px;
+}
+
+.news_check .reg_back {
+	margin-top: 20px;
+	margin-left: 100px;
+	width: 128px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/button_back.png) no-repeat;
+}
+
+.news_check .reg_button {
+	margin-top: 20px;
+	margin-left: 0px;
+	width: 123px;
+	height: 32px;
+    border: none;
+    display: block;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-color:#000000;
+	background: url(../images/private/register_button1.png) no-repeat;
+}
+
+/*----事務局からのお知らせ　追加----*/
+.news_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+
+/*----事務局からのお知らせ　削除----*/
+.news_delete_finish_text {
+	margin-left: 200px;
+	margin-top: 60px;
+}
+

@@ -1,0 +1,21 @@
+/*
+ * gaEventTracker - jQuery plugin
+ *
+ * Author Koji Kimura @ STARRYWORKS inc.
+ * http://www.starryworks.co.jp/
+ *
+ * Licensed under the MIT License
+ *
+ */
+
+var _gaq=_gaq||[],gaLoadingStartedOn=gaLoadingStartedOn||(new Date).getTime();
+(function(b){function t(){var a,b,e=g+h,f=j+i;for(a=0;a<d.length;a++)b=d[a].data("Top"),l=d[a].data("Left"),e>b&&f>l&&(b=d[a].attr("id"),_gaq.push(["_trackEvent","Banner","RealImpression",b]),d.splice(a,1),a--)}function u(){e();var a=b(document).height();!k&&a>h&&(_gaq.push(["_trackEvent","Scrolling","VerticalScrollbarExists",document.location.href]),k=!0);a=b(document).width();!m&&a>i&&(_gaq.push(["_trackEvent","Scrolling","HorizontalScrollbarExists",document.location.href]),m=!0)}function v(){e();
+b(window).unbind("load",v);if("undefined"!=typeof gaLoadingStartedOn){var a=(new Date).getTime()-gaLoadingStartedOn;_gaq.push(["_trackEvent","Loading","Load",document.location.href,a])}for(a=0;a<d.length;a++)d[a].data("Top",d[a].offset().top),d[a].data("Left",d[a].offset().left);u();t()}function w(){if(!x&&(x=!0,"undefined"!=typeof _gat)){var a=_gat._getTrackerByName();if(k&&!o){var c=b(document).height()-h,c=0>=c?100:Math.round(100*(p/c));100<c&&(c=100);a._trackEvent("Scrolling","MaxScrollTop",document.location.href,
+c)}m&&!q&&(c=b(document).width()-i,c=0>=c?100:Math.round(100*(n/c)),100<c&&(c=100),a._trackEvent("Scrolling","MaxScrollLeft",document.location.href,c));return"unloading"}}function e(){h=b(window).height();i=b(window).width();r=b(document).height()-h;s=b(document).width()-i}var h,i,r,s,y=!1,p=0,n=0,g=0,j=0,z=1,d=[],x=!1,k=!1,m=!1,A=!1,B=!1,C=!1,D=!1,q=!1,E=!1,F=!1,G=!1,H=!1,o=!1;e();b(window).bind("resize",e);b(window).bind("scroll",function(){y||(_gaq.push(["_trackEvent","Scrolling","Scroll",document.location.href]),
+y=!0);if(k){g=b(window).scrollTop();g>p&&(p=g);var a=0>=r?100:Math.round(100*(g/r));!E&&20<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollTop20",document.location.href]),E=!0);!F&&40<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollTop40",document.location.href]),F=!0);!G&&60<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollTop60",document.location.href]),G=!0);!H&&80<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollTop80",document.location.href]),H=!0);!o&&100<=a&&(_gaq.push(["_trackEvent","Scrolling",
+"ScrollTop100",document.location.href]),_gaq.push(["_trackEvent","Scrolling","MaxScrollTop",document.location.href,100]),o=!0)}m&&(j=b(window).scrollLeft(),j>n&&(n=j),0>=s||Math.round(100*(n/s)),!A&&20<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollLeft20",document.location.href]),A=!0),!B&&40<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollLeft40",document.location.href]),B=!0),!C&&60<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollLeft60",document.location.href]),C=!0),!D&&80<=a&&(_gaq.push(["_trackEvent",
+"Scrolling","ScrollLeft80",document.location.href]),D=!0),!q&&100<=a&&(_gaq.push(["_trackEvent","Scrolling","ScrollLeft100",document.location.href]),_gaq.push(["_trackEvent","Scrolling","MaxScrollLeft",document.location.href,100]),q=!0));t()});b(document).bind("ready",u);b(window).bind("load",v);b(window).bind("unload",w);var I=window.onbeforeunload;window.onbeforeunload=function(){"function"==typeof I&&I();w()};b.fn.gaBanner=function(a){b.extend(!0,a,{});return this.each(function(){function a(){b(this).unbind("click",
+a);_gaq.push(["_trackEvent","Banner","Click",f]);return!0}function e(){b(this).unbind("mouseover",e);_gaq.push(["_trackEvent","Banner","MouseOver",f]);return!0}var f=b(this).attr("id");f||(f="gaBanner"+z,b(this).attr("id",f),z++);b(this).bind("click",a);b(this).bind("mouseover",e);_gaq.push(["_trackEvent","Banner","Impression",f]);b(this).data("Top",b(this).offset().top);b(this).data("Left",b(this).offset().left);d.push(b(this))})}})(jQuery);
+
+/* SimpleLib Plugin */
+SimpleLib&&SimpleLib.extend("gaEventTracker",{settings:{bannerSelector:".gaBanner"},init:function(){$(function(){$(SimpleLib.gaEventTracker.settings.bannerSelector).gaBanner(SimpleLib.gaEventTracker.settings)})}});

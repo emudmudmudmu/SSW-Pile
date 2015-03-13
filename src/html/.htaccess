@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+
+# BEGIN WordPress
+
+# END WordPress
+
+# x-httpd-php[phpのバージョン]
+AddHandler x-httpd-php536 .php
+suPHP_ConfigPath /usr/home/aa14186nlp/conf/

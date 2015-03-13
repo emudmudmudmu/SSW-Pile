@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: #fff;
+	/*background-color: transparent;*/
+}
+#contact_body {
+	color: #284a7f;
+	width: 650px;
+	margin: 0 auto;
+}
+#contact_body table.contact,
+#contact_body table.confirm {
+	width: 100%;
+	background: #d7e0ea;
+	border: 1px solid #dad8d5;
+	margin-bottom: 20px;
+}
+#contact_body table.contact th,
+#contact_body table.contact td,
+#contact_body table.confirm th,
+#contact_body table.confirm td {
+	padding: 10px;
+}
+#contact_body table.contact th,
+#contact_body table.confirm th {
+	font-weight: normal;
+	color: #284a7f;
+	font-size: 14px;
+	width: 35%;
+}
+#contact_body table.confirm td {
+	background: #fff;
+	font-size: 14px;
+}
+#contact_body table.contact td input,
+#contact_body table.contact td select,
+#contact_body table.contact td textarea {
+	border: 1px solid #dad8d5;
+	background: #fff;
+	height: 25px;
+}
+/*
+#contact_body table.contact td input.box130,
+#contact_body table.contact td input.box250,
+#contact_body table.contact td textarea.tx300 {
+	border: 1px solid #7f5d49;
+}
+#contact_body table.contact td input.box130,
+#contact_body table.contact td input.box250 {
+	height: 25px;
+}
+#contact_body table.contact td input.box130 {
+	width: 130px;
+}
+#contact_body table.contact td input.box250 {
+	width: 250px;
+}
+#contact_body table.contact td textarea.tx300 {
+	width: 300px;
+	height: 115px;
+}
+*/
+
+#contact_body	.btn {
+	text-align: center;
+}
+#contact_body	.btn .rset,
+#contact_body	.btn .confirm,
+#contact_body	.btn .back,
+#contact_body	.btn .sbmt {
+	width: 100px;
+	height: 30px;
+	border: 1px solid #dad8d5;
+	color: #fff;
+	font-size: 14px;
+	cursor:pointer;
+}
+#contact_body	.btn .rset {
+	background-color: #bec8d8;
+}
+#contact_body	.btn .confirm {
+	background-color: #5f7ead;
+}
+#contact_body	.btn .back {
+	background-color: #bec8d8;
+}
+#contact_body	.btn .sbmt {
+	background-color: #5f7ead;
+}
+.error {
+	color: red;
+	padding-top: 5px;
+	font-size: 12px;
+}

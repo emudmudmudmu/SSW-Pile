@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<buildpath>
+	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+	<buildpathentry excluding="storage/|build/|application/language/" kind="src" path="laravel"/>
+	<buildpathentry kind="src" path="html/private"/>
+</buildpath>

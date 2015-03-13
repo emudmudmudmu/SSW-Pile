@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+/**
+ * $Author: mizoguchi $
+ * $Rev: 196 $
+ * $Date: 2013-10-08 20:55:58 +0900 (2013/10/08 (火)) $
+ */
+
+.code {
+	font-family:"Courier New", Courier, monospace;
+	font-size: larger;
+	white-space: nowrap;
+}
+
+
+
+input[type=text],
+input[type=password],
+select,
+textarea {
+	background-color: #fff;
+	border: solid 1px #aaa;
+}
+
+@media screen and (min-width:0\0) {
+	/* IE9 and IE10 rule sets go here */
+	input[type=text],
+	input[type=password],
+	textarea {
+		padding: 0 4px 4px !important;
+	}
+	select {
+		padding: 0 0 0 2px !important;
+	}
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+select:focus,
+textarea:focus {
+	background-color: #ff9;
+	border: solid 1px #66f;
+}
+
+label {
+	cursor: pointer;
+}
+
+td.td_status {
+	margin-top: 0px;
+	border: none;
+}
+
+td.td_status label {
+	vertical-align: middle;
+}
+
+table.inner_table {
+	margin:0;
+	float: right;
+}
+
+table.inner_table th {
+	padding: 0 0 2px;
+	text-align: right;
+	border: none;
+}
+table.inner_table td {
+	min-width: 44px;
+	width: auto;
+	padding: 0 0 2px 2em;
+	text-align: right;
+	vertical-align: top;
+	border: none;
+}
+
+tr.meisai_first td {
+	border-top: solid 2px #CCF;
+}

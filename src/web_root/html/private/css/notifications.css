@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/**
+ * $Author: mizoguchi $
+ * $Rev: 16 $
+ * $Date: 2013-09-16 16:22:19 +0900 (2013/09/16 (月)) $
+ */
+
+div#notification_area {
+	position: relative;
+	zoom: 1;
+	clear: both;
+	padding: 4px 0 0;
+}
+
+p.notification {
+	/* ------------------------------------------------------------
+		メッセージボックス
+	 ------------------------------------------------------------ */
+	display: none;
+	width: 590px; /* 674(px, /images/private/line.png width) - 40(px, this padding) * 2 - 1(px, this border) * 2 - 2(this margin) */
+	position: relative;
+	margin: 0 0 2px 1px !important;
+	padding: 0 40px;
+	line-height: 1.5;
+	border: solid 1px #bfbfaf;
+	color: #000 !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	clear: none !important;
+}
+
+span.notificate {
+	position: relative;
+	display: block;
+	clear: both;
+	padding: 6px 0;
+}
+
+p.success {
+	background:url(images/success.gif) no-repeat;
+	background-color: #dfffbf;
+}
+
+p.info {
+	background:url(images/info.gif) no-repeat;
+	background-color: #bfefff;
+}
+
+p.warn {
+	background:url(images/warning.gif) no-repeat;
+	background-color: #ffffbf;
+}
+
+p.error {
+	background:url(images/error.gif) no-repeat;
+	background-color: #ffcfbf;
+	color: #dd0000 !important;
+	border-color: #bfbfaf;
+}
+
+a.notification_close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(images/close_off.gif) no-repeat;
+}
+
+a.notification_close:hover {
+	background: url(images/close_on.gif) no-repeat;
+}

@@ -1,0 +1,254 @@
+@charset "utf-8";
+
+
+/* font設定など 
+-----------------------------------------------------------------*/
+body {
+	background: #FEF7E7 url(../images/bg.jpg) no-repeat center top;
+}
+
+/* デフォルトリンクの色とか下線とか 
+-----------------------------------------------------------------*/
+a{color:#636363;}
+a:hover{
+	color:#AAAAAA;
+}
+
+.clear{clear:both;}
+.st{font-weight:bold;}
+.fl{float:left;}
+.fr{float:right;}
+.tac{text-align:center;}
+.tar{text-align:right;}
+.vam{vertical-align:middle;}
+
+/* Margin
+-----------------------------------------------------------------*/
+
+.mb15{margin-bottom:15px;}
+.mb30{margin-bottom:30px;}
+.mb35{margin-bottom:35px;}
+.mb55{margin-bottom:55px;}
+
+/* Font
+-----------------------------------------------------------------*/
+.fs10{font-size:10px;}
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+
+/* Color
+-----------------------------------------------------------------*/
+
+.price{color:#efefef;margin-bottom:5px;}
+.red{color:#ff0202;}
+.blue{color:#012885;}
+.green{color:#537a43;}
+
+/* レイアウト （width paddinなど を調整）
+-----------------------------------------------------------------*/
+
+/*----Wrapper---*/
+
+#wrapper {
+margin:0 auto;
+width:100%;
+}
+
+/*----Header---*/
+
+#header {
+	position:relative;
+	width: 960px;
+	margin: 0 auto;
+	height:115px;
+}
+#header #header-logo {
+	position:absolute;
+	left:0;
+	top:39px;
+	width:180px;
+}
+#header #header-email {
+	position:absolute;
+	right:220px;
+	top:39px;
+	width:47px;
+}
+#header #header-email a:hover img{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+}
+#header #header-tel {
+	position:absolute;
+	right:0;
+	top:39px;
+	width:200px;
+}
+#header #description {
+	position:absolute;
+	left:0;
+	top:14px;
+	font-size:11px;
+	font-weight:normal;
+	color:#99958b;
+	width:auto;
+}
+
+/*----Globalnavi---*/
+
+ul#globalnavi {
+	height:57px;
+	width: 960px;
+	display:block;
+	margin: 0 auto 30px;
+	padding: 0;
+}
+ul#globalnavi li {
+	height:57px;
+	float: left;
+}
+ul#globalnavi li .ico {
+	margin-right:10px;
+	vertical-align:middle;
+}
+ul#globalnavi li a {
+	width:224px;
+	height:35px;
+	display:block;
+	padding:20px 0 0 0;
+	text-align:center;
+	color:#060606;
+	text-decoration:none;
+	border:1px solid #DCDBD8;
+	border-left:0;
+	background:#FFF;
+}
+ul#globalnavi li a:hover {
+	color:#AAA;
+}
+ul#globalnavi li.home {
+	width:60px;
+	height:57px;
+}
+ul#globalnavi li.home a {
+	width:60px;
+	height:57px;
+	padding:0;
+	border:0;
+}
+ul#globalnavi li.home a:hover img{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+}
+
+/*----Container---*/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	padding:;
+	background: url(../images/bg_cont.jpg) repeat center top;
+}
+
+/*----Maincolumn---*/
+
+#maincolumn {
+	position:relative;
+	width: 980px;
+	margin: 0 auto;
+	padding: 0;
+}
+#maincolumn #page_top {
+	clear: both;
+	float: right;
+	padding:0 15px 0 0;
+	background: url(../images/page_top.png) no-repeat;
+}
+#maincolumn #page_top a {
+	width: 83px;
+	height: 20px;
+	padding:6px 0 0 0;
+	display:block;
+	line-height:120%;
+	text-align:center;
+	font-size:11px;
+	color:#FFF;
+	background: url(../images/page_top.png) no-repeat;
+}
+#maincolumn #page_top a:hover {
+	color:#AAA;
+}
+
+/*----Footer---*/
+
+#footer {
+	clear: both;
+	width: 100%;
+	height: 201px;
+	margin: 0 auto;
+	padding: 0;
+	background: url(../images/bg_footer.jpg) repeat-x center top;
+}
+#footer #footer_inner {
+	position:relative;
+	margin:0 auto;
+	width: 960px;
+	height:201px;
+	padding:0;
+	font-size:11px;
+	letter-spacing:0.1em;
+}
+#footer #footer_inner ul#footer-navi {
+	position:absolute;
+	left:0;
+	top:27px;
+	text-align:center;
+	width:960px;
+}
+#footer #footer_inner ul#footer-navi li {
+	display:inline;
+	padding:0 10px;
+	border-right:1px solid #FFF;
+}
+#footer #footer_inner ul#footer-navi li.last {
+	border-right:0;
+}
+#footer #footer_inner ul#footer-navi li a {
+	color:#FFF;
+}
+#footer #footer_inner ul#footer-navi li a:hover {
+	color:#AAA;
+}
+#footer #footer_inner #footer-add {
+	position:absolute;
+	left:0;
+	top:90px;
+	width:400px;
+	line-height:200%;
+	color:#FFF;
+}
+#footer #footer_inner #footer-banner {
+	position:absolute;
+	right:0;
+	top:84px;
+	width:254px;
+}
+#footer #footer_inner #footer-banner a:hover img{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+}
+#footer #footer_inner p#copyright{
+	position:absolute;
+	left:0;
+	top:164px;
+	text-align:center;
+	color:#967431;
+	width:960px;
+}
+
+
+
+

@@ -1,0 +1,23 @@
+Options +FollowSymLinks
+
+# BEGIN WordPress
+
+# END WordPress
+
+# x-httpd-php[phpのバージョン]
+AddHandler x-httpd-php536 .php
+suPHP_ConfigPath /usr/home/aa14186nlp/conf/
+
+order deny,allow
+deny from all
+allow from 114.173.74.247
+allow from 210.199.18.214
+
+
+AuthUserFile /usr/home/aa14186nlp/html/private/.htpasswd
+AuthGroupFile /dev/null
+AuthName "Protected Area"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit>
